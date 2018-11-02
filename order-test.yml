@@ -12,7 +12,7 @@ spring:
     username: guest
     password: guest
 env:
-  test3666
+  666test
 girl:
-  name: lili666
+  name: 666lili
   age: 666
