@@ -14,5 +14,5 @@ spring:
 env:
   test2
 girl:
-  name: lili
-  age: 18
+  name: liliya
+  age: 20
