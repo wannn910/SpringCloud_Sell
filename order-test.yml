@@ -14,5 +14,5 @@ spring:
 env:
   6666
 girl:
-  name: IG NB
+  name: IG
   age: 666
