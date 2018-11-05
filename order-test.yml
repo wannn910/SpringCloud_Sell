@@ -1,6 +1,4 @@
 spring:
-  application:
-    name: order
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
@@ -11,6 +9,8 @@ spring:
     port: 5672
     username: guest
     password: guest
+  jpa:
+    show-sql: true
 env:
   test
 girl:
