@@ -1,13 +1,13 @@
 spring:
-  application:
-    name: product
-  rabbitmq:
-    host: 192.168.31.226
-    port: 5672
-    username: guest
-    password: guest
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     username: root
     password: root
     url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
+  rabbitmq:
+    host: 192.168.31.226
+    port: 5672
+    username: guest
+    password: guest
+  jpa:
+    show-sql: true
